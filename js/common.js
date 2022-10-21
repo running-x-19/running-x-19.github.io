@@ -1,7 +1,4 @@
 
-
-
-
 /* 手机侧边栏默认不展开 */
 var mobile_sidebar_menus = document.getElementById("sidebar-menus");
 if (mobile_sidebar_menus) {
@@ -13,3 +10,28 @@ if (mobile_sidebar_menus) {
         menus_item_child[i].style.display = "none";
     }
 }
+
+
+
+setInterval(function() {
+	check();
+	}, 2000);
+	
+	
+var check = function() {
+	function doCheck(a) {
+	  if (('' + a / a)['length'] !== 1 || a % 20 === 0) {
+		(function() {}['constructor']('debugger')());
+	  } else {
+		(function() {}['constructor']('debugger')());
+	  }
+	  doCheck(++a);
+	}
+	try {
+	  doCheck(0);
+	} catch (err) {
+		
+	}
+};
+
+check();
