@@ -49,3 +49,5 @@ function forbidden_control() {
         }), !1
     }
 }
+
+forbidden_control()
