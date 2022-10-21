@@ -41,7 +41,3 @@ setInterval(function() {
         } catch (err) {}
       };
       check();
-
-
-
-forbidden_control()
